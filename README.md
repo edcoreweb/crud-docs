@@ -335,6 +335,6 @@ We'll add the following methods :
         $this->redirect('/dashboard/users/items/' . $primary);
     }
         
-The `edit($id)` method renders the edit page, E.g.: when we access `\dashboard\users\edit\1`,
-The `save($id)` method handles the adding or updating a user with `id` received as parameter.
-The `oneMore($id)` method redirects us to the edited user or to an empty add page depending on which button we pressed. (Save or Save and new).
++ `edit($id)` method renders the edit page, E.g.: when we access `\dashboard\users\edit\1`,
++ `save($id)` method handles the adding or updating a user with `id` received as parameter.
++ `oneMore($id)` method redirects us to the edited user or to an empty add page depending on which button we pressed. (Save or Save and new).
